@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="aparcamientos" >
+
+    <ImageView
+        android:id="@+id/menuprincipalimagenbuttonaparcamiento"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="150dp"
+        android:adjustViewBounds="true"
+        android:onClick="aparcamientos"
+        android:src="@drawable/taxi" />
+
+    <ImageView
+        android:id="@+id/menuprincipalimagebuttonhoteles"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="150dp"
+        android:onClick="hoteles"
+        android:src="@drawable/bloqueo" />
+
+    <ImageView
+        android:id="@+id/menuprinciapalimagebuttonrestaurantes"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/menuprincipalimagenbuttonaparcamiento"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        android:onClick="restaurantes"
+        android:src="@drawable/web" />
+
+    <ImageView
+        android:id="@+id/menuimagenbuttonmore"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuprincipalimagebuttonhoteles"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:onClick="more"
+        android:src="@drawable/developers" />
+
+</RelativeLayout>
