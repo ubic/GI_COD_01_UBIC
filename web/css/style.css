@@ -64,7 +64,7 @@ body{
 	display: inline-block;
 }
 .cssmenu > ul > li.active a, .cssmenu > ul > li a:hover {
-	color:#000;
+	color:#F25B24;
 }
 .cssmenu > ul > li > a {
 	color: #999;
@@ -107,19 +107,19 @@ body{
 .but a {
 	font-family: 'AmbleRegular';	
 	display: inline-block;
-	-o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #3998F5;
-	-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #3998F5;
-	-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #3998F5;
-	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #3998F5;
-	background: #3998f5;
+	-o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #F25B24;
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #F25B24;
+	-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #F25B24;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 0px #F25B24;
+	background: #F25B24;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM5OThmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNzc3ZDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  #3998f5 0%, #1777d9 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3998f5), color-stop(100%,#1777d9));
-	background: -webkit-linear-gradient(top,  #3998f5 0%,#1777d9 100%);
-	background: -o-linear-gradient(top,  #3998f5 0%,#1777d9 100%);
-	background: -ms-linear-gradient(top,  #3998f5 0%,#1777d9 100%);
-	background: linear-gradient(to bottom,  #3998f5 0%,#1777d9 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3998f5', endColorstr='#1777d9',GradientType=0 );
+	background: -moz-linear-gradient(top,  #F25B24 0%, #C18A2B 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F25B24), color-stop(100%,#C18A2B));
+	background: -webkit-linear-gradient(top,  #F25B24 0%,#C18A2B 100%);
+	background: -o-linear-gradient(top,  #F25B24 0%,#C18A2B 100%);
+	background: -ms-linear-gradient(top,  #F25B24 0%,#C18A2B 100%);
+	background: linear-gradient(to bottom,  #F25B24 0%,#C18A2B 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F25B24', endColorstr='#C18A2B',GradientType=0 );
 	border: 1px solid #076CCE;
 	padding: 8px 30px;
 	font-size: 1.2em;
@@ -132,15 +132,15 @@ body{
 	text-transform:uppercase;
 }
 .but a:hover{
-	background: #1777d9;
+	background: #C18A2B;
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE3NzdkOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOTk4ZjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top,  #1777d9 0%, #3998f5 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1777d9), color-stop(100%,#3998f5));
-	background: -webkit-linear-gradient(top,  #1777d9 0%,#3998f5 100%);
-	background: -o-linear-gradient(top,  #1777d9 0%,#3998f5 100%);
-	background: -ms-linear-gradient(top,  #1777d9 0%,#3998f5 100%);
-	background: linear-gradient(to bottom,  #1777d9 0%,#3998f5 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1777d9', endColorstr='#3998f5',GradientType=0 );
+	background: -moz-linear-gradient(top,  #C18A2B 0%, #F25B24 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C18A2B), color-stop(100%,#F25B24));
+	background: -webkit-linear-gradient(top,  #C18A2B 0%,#F25B24 100%);
+	background: -o-linear-gradient(top,  #C18A2B 0%,#F25B24 100%);
+	background: -ms-linear-gradient(top,  #C18A2B 0%,#F25B24 100%);
+	background: linear-gradient(to bottom,  #C18A2B 0%,#F25B24 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C18A2B', endColorstr='#F25B24',GradientType=0 );
 	border: 1px solid #076CCE;
 }
 .but a img {
@@ -255,7 +255,7 @@ height: 182px;
 	font-size:1.3em;
 }
 .support-desc h4 a:hover{
-	color: #3998F5;
+	color: #F25B24;
 }
 .support-desc  p {
 	font-size:1.1em;
@@ -404,7 +404,7 @@ height: 182px;
 	margin-top: 10em;
 }
 .planContainer .options li {
-	color:#0365FF;
+	color:#F25B24;
 	line-height:3em;
 	font-family: 'AmbleRegular';
 	border-bottom: 1px solid #E9E9E9;
@@ -419,7 +419,7 @@ height: 182px;
 	color: #333;
 	letter-spacing: 3px;
 	line-height: 2.8em;
-	border: 2px solid #3998F5;
+	border: 2px solid #F25B24;
 	display: inline-block;
 	width: 80%;
 	height: 2.8em;
@@ -430,16 +430,16 @@ height: 182px;
 }
 .planContainer .button a.bestPlanButton {
 	color: #fff;
-	background: #3998F5;
+	background: #F25B24;
 }
 .planContainer .button a.bestPlanButton {
 	color: #FFF;
-	background: #3998F5;
-	border: 2px solid #3998F5;
+	background: #F25B24;
+	border: 2px solid #F25B24;
 }
 .planContainer .button a.bestPlanButton:hover {
-	background: #1B8DFC;
-	border: 2px solid #1B8DFC;
+	background: #404142;
+	border: 2px solid #404142;
 }
 #pricePlans #plans .plan {
 	width:25.9999%;
@@ -470,11 +470,11 @@ li.plan-middle{
 	        transition: all .25s;
 }
 .planContainer .button a:hover {
-	background: #3998F5;
+	background: #F25B24;
 	color: #fff;
 }
 .planContainer .button a.bestPlanButton:hover {
-	background:#1B8DFC;
+	background:#404142;
 }
 /*--footer--*/
 .footer-menu{
@@ -488,7 +488,7 @@ li.plan-middle{
 	display: inline-block;
 }
 .footer-menu li a {
-	color: #999;
+	color: #F25B24;
 	display: block;
 	margin: 10px 10px;
 	letter-spacing: 1px;
@@ -504,7 +504,7 @@ li.plan-middle{
 	font-size:1em;
 }
 p.copy a{
-	color:#3998F5;
+	color:#F25B24;
 }
 p.copy a:hover{
 	color:#555;
